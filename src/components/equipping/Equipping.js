@@ -40,7 +40,7 @@ const Equipping = () => {
                     “If All Dogs Got to Heaven…<br/> What about Cats?” – <br/><em>A Thought Provoking Presentation on the idea of Animals Being Present in Heaven or on the New Earth</em></p>
                 </li>
                 <li className="imgContainer">
-                    <img className="img325" src="https://foundationsincreations.s3.amazonaws.com/preMarital.jpg" alt="Pre-Marital and Couples Counseling" title="Pre-Marital and Couples Counseling" />
+                    <img className="img325" src="https://foundationsincreations.s3.amazonaws.com/preMarital_v2.jpg" alt="Pre-Marital and Couples Counseling" title="Pre-Marital and Couples Counseling" />
                     <p className="imgText">
                     Pre-Marital and Couples Counseling &amp; Prepare-Enrich Assessment Training</p>
                 </li>
