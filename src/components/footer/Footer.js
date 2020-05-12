@@ -8,7 +8,7 @@ const Footer = () => {
                     <div className="bio1">
                         <div className="bioText">
                             <p><strong>Dr. Gay Zambrano</strong></p>
-                            <p>gmzamb@aol.com | 714-864-6573</p>
+                            <p>gmzamb@aol.com | 714-863-6573</p>
                         </div>
                     </div>
                     <div className="bio2">
