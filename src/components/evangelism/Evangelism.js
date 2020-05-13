@@ -17,7 +17,7 @@ const Evangelism = () => {
                 <li className="imgContainer">
                     <img className="img225" src="https://foundationsincreations.s3.amazonaws.com/armorOfGod.png" alt="Armor of God" title="Armor of God" />
                     <p className="imgText">
-                        "Armor of God" – Eph 6:10-17</p>
+                        "Armor of God" <br/> – Eph 6:10-17</p>
                 </li>
                 <li className="imgContainer">
                     <img className="img225" src="https://foundationsincreations.s3.amazonaws.com/preciousBond.png" alt="Marriage: The Precious Bond" title="Marriage Is and Demonstrates the Precious Bond" />

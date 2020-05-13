@@ -1,20 +1,116 @@
-@import url('//fonts.googleapis.com/css?family=Open+Sans&display=swap');
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.toolbar {
+  font-family: 'Open Sans', sans-serif;
+  position: fixed;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, .5);
+  height: 120px;
+  padding: 0 20px;
+  z-index: 600;
+}
+
+.toolbar_navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.toolbar_toggle-button {
+  display: none;
+}
+
+.toolbar_logo {
+  display: flex;
+  align-items: center;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.logoImage {
+  background: url(https://foundationsincreations.s3.amazonaws.com/ficLogo_nav.png) no-repeat top center;
+  background-size: contain;
+  width: 58px;
+  height: 80px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.logoType {
+  font-size: 2.7rem;
+  font-weight: 300;
+  margin-left: 1rem;
+  letter-spacing: 1px;
+  line-height: 40px;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 300px;
+}
+
+.toolbar_navigation_items .item {
+  font-size: .9rem;
+  font-weight: 300;
+  color: black;
+  text-decoration: none;
+  padding: 12px;
+}
+
+.toolbar_navigation_items .item:hover {
+  color: rgb(255, 164, 27)
+}
+
+.toolbar_navigation_items .item:active {
+  color: rgb(255, 102, 0)
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+
+.fab {
+  color: black;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+.fab:hover {
+  color: rgb(255, 164, 27)
+}
+
+.fab:active {
+  color: rgb(255, 102, 0)
+}
+
+
 .App_Container {
   position: relative;
   min-height: 100vh;
+  width: 100%;
 }
 
 h2 {
-  font-family: Arial, Helvetica, sans-serif;
   text-align: left;
-  font-weight: bolder;
+  font-weight: 700;
 }
 
 .mainSlider {
@@ -31,7 +127,7 @@ h2 {
   top: 360px;
   left: 30px;
   font-size: 3rem;
-  line-height: 3.1rem;
+  line-height: 3.5rem;
   font-weight: 700;
   text-shadow: 3px 3px 3px black;
 }
@@ -49,10 +145,10 @@ h2 {
 .slide_2 .slide_headline {
   position: absolute;
   width: 500px;
-  top: 120px;
+  top: 100px;
   right: 30px;
   font-size: 3rem;
-  line-height: 3.1rem;
+  line-height: 3.5rem;
   font-weight: 700;
   text-shadow: 3px 3px 3px black;
   text-align: right;
@@ -61,8 +157,8 @@ h2 {
 .slide_2 .slide_text {
   position: absolute;
   width: 450px;
-  top: 240px;
-  right: 50px;
+  top: 220px;
+  right: 30px;
   font-size: 1.5rem;
   font-weight: 500;
   text-shadow: 2px 2px 2px black;
@@ -75,7 +171,7 @@ h2 {
   top: 80px;
   left: 30px;
   font-size: 3rem;
-  line-height: 3.1rem;
+  line-height: 3.5rem;
   font-weight: 700;
   text-shadow: 3px 3px 3px black;
 }
@@ -99,7 +195,6 @@ h2 {
   font-weight: 300;
   font-size: 2rem;
   line-height: 2.2rem;
-  font-family: 'Open Sans', sans-serif;
   text-align: center;
   text-transform: uppercase;
 }
@@ -146,7 +241,7 @@ h2 {
   max-width: 1024px;
   margin-bottom: 1.5rem;
   text-align: center;
-  font-weight: 300;
+  font-weight: 500;
   font-size: 1.5rem;
 }
 
@@ -173,7 +268,38 @@ h2 {
   padding: 2rem;
   height: 100%;
   color: white;
-  text-align: center;
+  text-align: left;
+}
+
+.contactContainer {
+  display: flex;
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.contact1, .contact2 {
+  width: 100%;
+  max-width: 511px;
+  margin-left: 2rem;
+  padding-bottom: 2rem;
+}
+
+
+.contactText a {
+  color: white;
+}
+
+.contactSocial {
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem 0;
+}
+
+.contactSocial .fab{
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;;
 }
 
 .speechList {
@@ -201,14 +327,12 @@ li {
   border: 1px solid white;
   box-shadow: 3px 3px 6px aliceblue;
   width: 320px;
-  /* height: 225px; */
   overflow: hidden;
 }
 .img325 {
   border: 1px solid white;
   box-shadow: 3px 3px 6px aliceblue;
   width: 320px;
-  /* height: 325px; */
   overflow: hidden;
 }
 
@@ -232,17 +356,15 @@ li {
   display: flex;
   flex-direction: row;
   padding: 0 2rem 0 0;
-  width: 100%;
-  max-width: 511px;
-
 }
 
-.bioImage {
+.bioImage1, .bioImage2 {
   float: left;
   width: 10.5rem;
-  height: 70%;
-  padding-right: 1rem;
-  
+  height: 65%;
+  margin-top: 5px;
+  margin-right: 1rem;
+  border: 1px solid white;
 }
 
 .bio1 .bioText {
@@ -258,41 +380,51 @@ li {
   padding: 0 0 1rem 0;
 }
 
-@media screen and (min-width: 481px) and (max-width: 1023px) {
+.copyright {
+  font-size: .75rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 1063px) {
   .mainSlider {
     padding-top: 75px;
     margin: 0 auto;
     color: white;
   }
 
+  .bioImage2 {
+    float: right;
+    padding-right: 0rem;
+    margin-left: 1rem;
+  }
 }
 
 @media screen and (max-width: 480px) {
-
   .mainSlider {
     padding-top: 75px;
     max-width: 100%;
   }
 
   .missionStatement {
-      font-size: 1.4rem;
+      font-size: 1.25rem;
+      font-weight: 500;
       line-height: 1.6rem;
-      padding: 0 3rem;
+      padding: 0 2rem;
   }
 
   .slide_1 img, .slide_2 img, .slide_3 img {
     width: 100%;
-
   }
 
   .slide_1 .slide_headline {
     position: absolute;
     width: 320px;
     top: 20px;
-    left: 30px;
+    left: 20px;
     font-size: 1.8rem;
-    line-height: 1.9rem;
-    font-weight: 900;
+    line-height: 2.1rem;
     text-shadow: 3px 3px 3px black;
   }
   
@@ -300,9 +432,9 @@ li {
     position: absolute;
     width: 300px;
     top: 90px;
-    left: 30px;
+    left: 20px;
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 600;
     text-shadow: 2px 2px 2px black;
   }
   
@@ -312,8 +444,7 @@ li {
     top: 20px;
     right: 25px;
     font-size: 1.8rem;
-    line-height: 1.9rem;
-    font-weight: 900;
+    line-height: 2.1rem;
     text-shadow: 3px 3px 3px black;
     text-align: right;
   }
@@ -324,7 +455,7 @@ li {
     top: 90px;
     right: 25px;
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 600;
     text-shadow: 2px 2px 2px black;
     text-align: right;
   }
@@ -333,23 +464,20 @@ li {
     position: absolute;
     width: 320px;
     top: 105px;
-    right: -15px;
+    left: 20px;
     font-size: 1.8rem;
-    line-height: 1.9rem;
-    font-weight: 900;
+    line-height: 2.1rem;
     text-shadow: 3px 3px 3px black;
-    text-align: right;
   }
   
   .slide_3 .slide_text {
     position: absolute;
     width: 320px;
     top: 175px;
-    right: 0px;
+    left: 20px;
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 600;
     text-shadow: 2px 2px 2px black;
-    text-align: right;
   }
 
   .subhead {
@@ -373,8 +501,67 @@ li {
       padding-bottom: 1rem;
   }
 
+  .bio1 .bio2 {
+    width: 100%;
+    padding: .9rem 0 .1rem 1.5rem;
+  }
+
+  .bioImage1 {
+    width: 9rem;
+    height: 40%;
+    margin-right: 1rem;
+  }
+  .bioImage2 {
+    float: right;
+    width: 9rem;
+    height: 39%;
+    padding-right: 0rem;
+    margin-left: 1rem;
+  }
+
+  .bioText {
+    width: 100%;
+    max-width: 480px;
+  }
+
   .aboutUsIndent {
     padding: .9rem 0 .1rem 1.5rem;
+  }
+
+  .bio1 .bioText {
+    margin-right: 2.5rem;
+  }
+
+  .contactContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0;
+  }
+
+  .contactSocial {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 0;
+  }
+  
+  .contactSocial .fab{
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;;
+  }
+  
+  .contact1, .contact2 {
+    padding: .25rem 0 1rem 1rem;
+  }
+  
+  .contactText p {
+    margin: 1rem 0 -1rem 0;
+  }
+
+  .copyright {
+    text-align: right;
+    margin-bottom: 1rem;
   }
 
 }

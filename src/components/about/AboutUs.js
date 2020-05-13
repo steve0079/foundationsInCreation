@@ -15,17 +15,17 @@ const AboutUs = () => {
                 <p className="aboutUsIndent"><strong>“Unlocking the Mysteries of Genesis”</strong> – used as Earth Science and Small Group curriculum</p>
                 <div className="bioContainer">
                     <div className="bio1">
-                        <img className="bioImage" src="https://foundationsincreations.s3.amazonaws.com/zambranoG.jpg" alt="Dr. Gay Zambrano" title="Dr. Gay Zambrano" />
+                        <img className="bioImage1" src="https://foundationsincreations.s3.amazonaws.com/zambranoG.jpg" alt="Dr. Gay Zambrano" title="Dr. Gay Zambrano" />
                         <div className="bioText">
-                            <p>Dr. Gay Zambrano is a 1991 graduate of the Ohio State University School of Veterinary Medicine. She fulfilled an externship at the London Zoo.</p>
-                            <p>Practicing full-time small animal and exotics medicine in the Long Beach/West Orange County area since 1991. Part-time clinical and consulting positions in laboratory animal medicine for 15 years. Gay has also been an adjunct professor at Bethesda University, teaching Life Science and Earth Science from a young earth biblical creation perspective.</p>
+                            <p><strong>Dr. Gay Zambrano</strong> is a 1991 graduate of the Ohio State University School of Veterinary Medicine. She fulfilled an externship at the London Zoo.</p>
+                            <p>Currently practicing full-time small animal and exotics medicine in the Long Beach / West Orange County area since 1991, she did part-time clinical and consulting positions in laboratory animal medicine for 15 years. Gay has also been an Adjunct Professor at Bethesda University, teaching Life Science and Earth Science from a young earth biblical creation perspective.</p>
                         </div>
                     </div>
                     <div className="bio2">
-                        <img className="bioImage" src="https://foundationsincreations.s3.amazonaws.com/zambranoD.jpg" alt="Dan Zambrano" title="Dan Zambrano" />
+                        <img className="bioImage2" src="https://foundationsincreations.s3.amazonaws.com/zambranoD.jpg" alt="Dan Zambrano" title="Dan Zambrano" />
                         <div className="bioText">
-                            <p>Husband Dan Zambrano has a B.S. in Marine Biology from Cal State Long Beach. He is a Licensed Registered Veterinary Technician. </p>
-                            <p>He has worked at Cabrillo Aquarium, the Los Angeles Harbor Dept., California State Fish &amp; Game Dept., and the L.A. Zoo before partnering in the mobile veterinary practice with his wife.  Dan is a certified speaker for the IAC (International Association for Creation). He is currently working on biblical creation based guide book for local zoos in Southern California.</p>
+                            <p>Husband <strong>Dan Zambrano</strong> has a B.S. in Marine Biology from California State University Long Beach. He is a Licensed Registered Veterinary Technician. </p>
+                            <p>He has worked at Cabrillo Aquarium, the Los Angeles Harbor Department, California State Fish &amp; Game Department, and the Los Angeles Zoo before partnering in the mobile veterinary practice with his wife. Dan is a certified speaker for the IAC (International Association for Creation). He is currently working on biblical creation based guide book for local zoos in Southern California.</p>
                         </div>
                     </div>
                 </div>

@@ -1,5 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
+import { HashLink as Link } from 'react-router-hash-link';
 import DrawerToggleButton from '../sideDrawer/DrawerToggleButton'
 import './navbar.css'
 
@@ -21,12 +22,12 @@ const Navbar = props => (
                     <a href="https://www.instagram.com/gayzambrano/" target="_self" rel="noopener noreferrer"><i className="fab fa-instagram fa-2x"></i></a>
                 </div>
                 <div className="navItems">
-                    <Link to='/' className="item">HOME</Link>
-                    <Link to='/equipping' className="item">EQUIPPING</Link>
-                    <Link to='/evangelism' className="item">EVANGELISM</Link>
-                    <Link to='/242_ministries' className="item">242 MINISTRIES</Link>
-                    <Link to='/about' className="item">ABOUT</Link>
-                    <Link to="/contact" className="item">CONTACT</Link>
+                    <Link to='/#CustomerSlider' className="item">HOME</Link>
+                    <Link to='/#Equipping' className="item">EQUIPPING</Link>
+                    <Link to='/#Evangelism' className="item">EVANGELISM</Link>
+                    <Link to='/#TwoFourTwoMinistries' className="item">242 MINISTRIES</Link>
+                    <Link to='/#AboutUs' className="item">ABOUT US</Link>
+                    <Link to="/#Footer" className="item">CONTACT</Link>
                 </div>
             </div>
         </nav>

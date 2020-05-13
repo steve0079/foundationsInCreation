@@ -15,12 +15,12 @@ const sideDrawer = props => {
         <div onClick={props.drawerClickHandler}>
             <nav className={drawerClasses}>
                 <ul>
-                    <li><Link to='/'>HOME</Link></li>
-                    <li><Link to='/equipping'>EQUIPPING</Link></li>
-                    <li><Link to='/evangelism'>EVANGELISM</Link></li>
-                    <li><Link to='/242_ministries'>242 MINISTRIES</Link></li>
-                    <li><Link to='/about'>ABOUT</Link></li>
-                    <li><Link to='/contact'>CONTACT</Link></li>
+                    <li><Link to='/#CustomerSlider' className="item">HOME</Link></li>
+                    <li><Link to='/#Equipping' className="item">EQUIPPING</Link></li>
+                    <li><Link to='/#Evangelism' className="item">EVANGELISM</Link></li>
+                    <li><Link to='/#TwoFourTwoMinistries' className="item">242 MINISTRIES</Link></li>
+                    <li><Link to='/#AboutUs' className="item">ABOUT US</Link></li>
+                    <li><Link to="/#Footer" className="item">CONTACT</Link></li>
                 </ul>
             </nav>
         </div>
