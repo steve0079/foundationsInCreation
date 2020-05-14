@@ -7,7 +7,7 @@ const AboutUs = () => {
         <Fragment>
             <div className="container">
                 <h2 className="subhead">About Us</h2>
-                <img className="sectionMainImage" src="https://foundationsincreations.s3.amazonaws.com/aboutUsMain.jpg" alt="About Us" title="About Us" />
+                <img className="sectionMainImage" src="https://foundationsincreations.s3.amazonaws.com/aboutUsMain_v2.jpg" alt="About Us" title="About Us" />
                 <p className="aboutUs"><strong>Veterinarian Dr. Gay Zambrano</strong> and husband, <strong>Dan Zambrano</strong> love to speak and teach on the truth of God’s word and His creation.</p>
                 <p className="aboutUs">Both Dan and Gay are Ordained Pastors in the Free Methodist Church. They love teaching and preaching the Word of God to people of ALL AGES. They have worked with students from 4th &amp; 5th graders, through High School, College, and beyond!</p>
                 <p className="aboutUs">They have given talks at several Creation Science Groups as well as Youth Groups, Small Groups or Sunday morning sermons. Their teachings have covered such topics as:</p>
