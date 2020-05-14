@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 
 import './sideDrawer.css';
@@ -15,12 +15,12 @@ const sideDrawer = props => {
         <div onClick={props.drawerClickHandler}>
             <nav className={drawerClasses}>
                 <ul>
-                    <li><Link to='/#CustomerSlider' className="item">HOME</Link></li>
-                    <li><Link to='/#Equipping' className="item">EQUIPPING</Link></li>
-                    <li><Link to='/#Evangelism' className="item">EVANGELISM</Link></li>
-                    <li><Link to='/#TwoFourTwoMinistries' className="item">242 MINISTRIES</Link></li>
-                    <li><Link to='/#AboutUs' className="item">ABOUT US</Link></li>
-                    <li><Link to="/#Footer" className="item">CONTACT</Link></li>
+                    <li><AnchorLink  offset='75' href='#CustomerSlider' className="item">HOME</AnchorLink></li>
+                    <li><AnchorLink  offset='75' href='#Equipping' className="item">EQUIPPING</AnchorLink></li>
+                    <li><AnchorLink  offset='75' href='#Evangelism' className="item">EVANGELISM</AnchorLink></li>
+                    <li><AnchorLink  offset='75' href='#TwoFourTwoMinistries' className="item">242 MINISTRIES</AnchorLink></li>
+                    <li><AnchorLink  offset='75' href='#AboutUs' className="item">ABOUT US</AnchorLink></li>
+                    <li><AnchorLink  offset='75' href="#Footer" className="item">CONTACT</AnchorLink></li>
                 </ul>
             </nav>
         </div>

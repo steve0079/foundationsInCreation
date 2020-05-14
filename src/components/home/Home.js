@@ -11,16 +11,16 @@ const Home = () => {
 
   return (
     <div>
-      <CustomSlider />
+      <section id='CustomSlider'><CustomSlider /></section>
       <h4 className="missionStatement">
-        “To educate,  enlighten &amp; illuminate people
+        “To educate, enlighten &amp; illuminate people
         to the truth of God’s word &amp; His creation”
       </h4>
-      <Equipping />
-      <Evangelism />
-      <TwoFourTwoMinistries />
-      <AboutUs />
-      <Footer />
+      <section id='Equipping'><Equipping /></section>
+      <section id='Evangelism'><Evangelism /></section>
+      <section id='TwoFourTwoMinistries'><TwoFourTwoMinistries /></section>
+      <section id='AboutUs'><AboutUs /></section>
+      <section id='Footer'><Footer /></section>
     </div>
   );
 }

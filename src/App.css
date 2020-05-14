@@ -232,7 +232,7 @@ h2 {
   margin-top: 2rem;
   width: 100%;
   max-width: 1024px;
-  height: auto;
+  overflow: hidden;
 }
 
 .sectionMainImageCaption {

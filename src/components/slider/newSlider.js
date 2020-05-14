@@ -11,7 +11,7 @@ const CustomSlider = () => {
     }
 
     return(
-        <div className="mainSlider">
+        <div id='CustomerSlider' className="mainSlider">
         <Slider {...settings}>
             <div className="slide_1">
                 <img src="https://foundationsincreations.s3.amazonaws.com/logoLrgV3.jpg" alt="Foundations in Creation Logo" title="Foundations in Creation"/>
