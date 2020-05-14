@@ -7,7 +7,7 @@ const CustomSlider = () => {
         autoplay: true,
         autoplaySpeed: 6000,
         arrows: false,
-        dots: true,
+        dots: false,
     }
 
     return(

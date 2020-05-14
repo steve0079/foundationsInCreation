@@ -6,7 +6,7 @@ const TwoFourTwoMinistries = () => {
     return (
         <div className="containerGold">
             <h2 className="subhead">242 Ministries</h2>
-            <img className="sectionMainImage" src="https://foundationsincreations.s3.amazonaws.com/communityOutreachMain.jpg" alt="Equipping / Education Tracks" title="Creation Science &amp; Bible-Based Courses / Seminars" />
+            <img className="sectionMainImage" src="https://foundationsincreations.s3.amazonaws.com/communityOutreachMain_v2.jpg" alt="Equipping / Education Tracks" title="Creation Science &amp; Bible-Based Courses / Seminars" />
             <h5 className="sectionMainImageCaption">COMMUNITY OUTREACH</h5>
             <ul className="speechList">
                 <li className="imgContainer">
