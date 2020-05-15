@@ -263,16 +263,14 @@ h2 {
   max-width: 1024px;
   text-align: left;
   font-weight: 300;
-  font-size: 1.05rem;
 }
 
 .aboutUsIndent {
-  padding: .9rem 0 .1rem 8rem;
+  padding: .9rem 0 .1rem 10%;
   margin: 0 auto;
   max-width: 1024px;
   text-align: left;
   font-weight: 300;
-  font-size: 1.05rem;
 }
 
 .footer {
@@ -354,35 +352,27 @@ li {
 
 .bioContainer {
   display: flex;
-  flex-wrap: wrap;
   margin: auto;
   width: 100%;
   max-width: 1024px;
   padding-top: 2.5rem;
 }
 
-.bio1 .bio2 {
-  display: flex;
-  flex-direction: row;
-  padding: 0 2rem 0 0;
-}
 
 .bioImage1, .bioImage2 {
   float: left;
-  width: 10.5rem;
-  height: 65%;
-  margin-top: 5px;
-  margin-right: 1rem;
+  width: 10rem;
+  margin: .5rem 1rem 1rem 0;
   border: 1px solid white;
 }
 
-.bio1 .bioText {
+.bio1 .bioText, .bio2 .bioText {
   margin-right: 2.5rem;
+  line-height: 1.6rem;
 }
 
 .bioText {
   padding: 0 20px 0 0;
-  width: 30rem;
 }
 
 .bioText p {
@@ -396,17 +386,78 @@ li {
 }
 
 
-@media screen and (min-width: 481px) and (max-width: 1063px) {
+@media screen and (min-width: 481px) and (max-width: 1023px) {
   .mainSlider {
+    width: 100%;
     padding-top: 75px;
     margin: 0 auto;
     color: white;
   }
 
-  .bioImage2 {
-    float: right;
-    padding-right: 0rem;
-    margin-left: 1rem;
+  .slide_1 img, .slide_2 img, .slide_3 img {
+    width: 100%;
+  }
+
+  .slide_1 .slide_headline {
+    position: absolute;
+    width: 350px;
+    top: 20px;
+    left: 20px;
+    font-size: 2.0rem;
+    line-height: 2.25rem;
+    text-shadow: 3px 3px 3px black;
+  }
+  
+  .slide_1 .slide_text {
+    position: absolute;
+    width: 350px;
+    top: 110px;
+    left: 20px;
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px black;
+  }
+  
+  .slide_2 .slide_headline {
+    position: absolute;
+    width: 350px;
+    top: 20px;
+    right: 25px;
+    font-size: 2.0rem;
+    line-height: 2.25rem;
+    text-shadow: 3px 3px 3px black;
+    text-align: right;
+  }
+  
+  .slide_2 .slide_text {
+    position: absolute;
+    width: 350px;
+    top: 110px;
+    right: 25px;
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px black;
+    text-align: right;
+  }
+  
+  .slide_3 .slide_headline {
+    position: absolute;
+    width: 320px;
+    top: 20px;
+    left: 20px;
+    font-size: 2.0rem;
+    line-height: 2.25rem;
+    text-shadow: 3px 3px 3px black;
+  }
+  
+  .slide_3 .slide_text {
+    position: absolute;
+    width: 320px;
+    top: 110px;
+    left: 20px;
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px black;
   }
 }
 
@@ -500,7 +551,7 @@ li {
       margin-bottom: .5rem;
   }
 
-  .img325, .img225 {
+  .img325, .img225, .img225-white {
       display: none;
   }
 
@@ -510,6 +561,11 @@ li {
       padding-bottom: 1rem;
   }
 
+  .bioContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   .bio1 .bio2 {
     width: 100%;
     padding: .9rem 0 .1rem 1.5rem;
@@ -517,13 +573,11 @@ li {
 
   .bioImage1 {
     width: 9rem;
-    height: 40%;
     margin-right: 1rem;
   }
   .bioImage2 {
     float: right;
     width: 9rem;
-    height: 39%;
     padding-right: 0rem;
     margin-left: 1rem;
   }

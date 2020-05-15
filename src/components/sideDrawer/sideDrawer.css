@@ -48,7 +48,7 @@
     margin: 20px 0;
 }
 
-@media (min-width: 701px) {
+@media screen and (min-width: 862px) {
     .side-drawer {
         display: none;
     }
