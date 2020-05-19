@@ -17,7 +17,7 @@ body {
   width: 100%;
   background: rgb(255, 255, 255);
   box-shadow: 0 4px 8px rgba(0, 0, 0, .5);
-  height: 120px;
+  height: 100px;
   padding: 0 20px;
   z-index: 600;
 }
@@ -81,8 +81,6 @@ body {
 
 .social {
   display: flex;
-  flex-direction: row;
-  align-items: center;
   justify-content: flex-end;
   padding-right: 10px;
 }
@@ -100,7 +98,6 @@ body {
 .fab:active {
   color: rgb(255, 102, 0)
 }
-
 
 .App_Container {
   position: relative;
@@ -229,26 +226,22 @@ h2 {
 
 .sectionMainImage {
   border: 1px solid white;
-  margin-top: 2rem;
+  margin-top: 1rem;
   width: 100%;
   max-width: 1024px;
-  height: 100%;
-  max-height: 600px;
-  overflow: hidden;
 }
 
 .whiteSectionMainImage {
-  margin-top: 2rem;
+  margin-top: 1rem;
   width: 100%;
   max-width: 1024px;
   height: 100%;
-  max-height: 600px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, .5);
 }
 
 .sectionMainImageCaption {
-  padding: 1rem 0 1.5rem;
+  padding: .5rem 0 1rem;
   margin: 0 auto;
   max-width: 1024px;
   margin-bottom: 1.5rem;
@@ -263,14 +256,16 @@ h2 {
   max-width: 1024px;
   text-align: left;
   font-weight: 300;
+  font-size: 1rem;
 }
 
 .aboutUsIndent {
-  padding: .9rem 0 .1rem 10%;
+  padding: .9rem 15% .1rem 10%;
   margin: 0 auto;
   max-width: 1024px;
   text-align: left;
   font-weight: 300;
+  font-size: 1rem;
 }
 
 .footer {
@@ -295,7 +290,6 @@ h2 {
   padding-bottom: 2rem;
 }
 
-
 .contactText a {
   color: white;
 }
@@ -306,10 +300,11 @@ h2 {
   margin: 1.5rem 0;
 }
 
-.contactSocial .fab{
+.contactSocial .fab {
   color: white;
   text-decoration: none;
-  margin: 0 1rem;;
+  margin: 0 1rem;
+  ;
 }
 
 .speechList {
@@ -320,7 +315,10 @@ h2 {
   justify-content: center;
   width: 100%;
   max-width: 1280px;
-  
+}
+
+.moreText {
+  display: none;
 }
 
 li {
@@ -338,6 +336,7 @@ li {
   box-shadow: 0 4px 8px aliceblue;
   width: 320px;
 }
+
 .img225-white {
   box-shadow: 0 4px 8px rgba(0, 0, 0, .5);
   width: 320px;
@@ -357,7 +356,6 @@ li {
   max-width: 1024px;
   padding-top: 2.5rem;
 }
-
 
 .bioImage1, .bioImage2 {
   float: left;
@@ -385,109 +383,171 @@ li {
   margin-bottom: 1rem;
 }
 
+@media screen and (min-width: 801px) and (max-width: 1023px) {
+  .toolbar {
+    height: 90px;
+    position: fixed;
+}
 
-@media screen and (min-width: 481px) and (max-width: 1023px) {
+.logoImage {
+    height: 58px;
+    width: 42px;
+    margin-left: 0px;
+}
+
+.logoType {
+    font-size: 2rem;
+    margin-left: .5rem;
+    letter-spacing: 0;
+    line-height: 30px;
+    width: 200px;
+}
+
+.toolbar_navigation_items .item {
+    font-size: .7rem;
+    font-weight: 300;
+    color: black;
+    text-decoration: none;
+    padding: 12px;
+    padding-bottom: 10px;
+}
+
+.fab {
+font-size: 1.5rem;
+margin-bottom: 10px;
+}
+
   .mainSlider {
     width: 100%;
-    padding-top: 75px;
+    padding-top: 90px;
     margin: 0 auto;
     color: white;
   }
-
+  
   .slide_1 img, .slide_2 img, .slide_3 img {
     width: 100%;
   }
-
   .slide_1 .slide_headline {
     position: absolute;
-    width: 350px;
-    top: 20px;
-    left: 20px;
-    font-size: 2.0rem;
-    line-height: 2.25rem;
+    width: 400px;
+    top: 50px;
+    left: 60px;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
     text-shadow: 3px 3px 3px black;
   }
-  
   .slide_1 .slide_text {
     position: absolute;
-    width: 350px;
-    top: 110px;
-    left: 20px;
+    width: 380px;
+    top: 150px;
+    left: 60px;
     font-size: 1.125rem;
     font-weight: 600;
     text-shadow: 2px 2px 2px black;
   }
-  
   .slide_2 .slide_headline {
     position: absolute;
-    width: 350px;
-    top: 20px;
-    right: 25px;
-    font-size: 2.0rem;
-    line-height: 2.25rem;
+    width: 420px;
+    top: 50px;
+    right: 75px;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
     text-shadow: 3px 3px 3px black;
     text-align: right;
   }
-  
   .slide_2 .slide_text {
     position: absolute;
-    width: 350px;
-    top: 110px;
-    right: 25px;
+    width: 380px;
+    top: 150px;
+    right: 75px;
     font-size: 1.125rem;
     font-weight: 600;
     text-shadow: 2px 2px 2px black;
     text-align: right;
   }
-  
   .slide_3 .slide_headline {
     position: absolute;
-    width: 320px;
-    top: 20px;
-    left: 20px;
-    font-size: 2.0rem;
-    line-height: 2.25rem;
+    width: 400px;
+    top: 50px;
+    left: 60px;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
     text-shadow: 3px 3px 3px black;
   }
-  
   .slide_3 .slide_text {
     position: absolute;
-    width: 320px;
-    top: 110px;
-    left: 20px;
+    width: 380px;
+    top: 150px;
+    left: 60px;
     font-size: 1.125rem;
     font-weight: 600;
     text-shadow: 2px 2px 2px black;
+  }
+
+  .aboutUs, .aboutUsIndent {
+    width: 100%;
+    max-width: 1023px;
+    font-size: .6rem;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 800px) {
+  .toolbar {
+    position: sticky;
+    top: -76px;
+    height: 76px;
+    display: flex;
+    background: rgb(255, 255, 255);
+  }
+  .toolbar_logo {
+    display: flex;
+    align-items: center;
+  }
+  .logoImage {
+    height: 50px;
+    width: 37px;
+    margin-left: 0px;
+  }
+  .logoType {
+    font-size: 28px;
+    margin-left: 10px;
+    letter-spacing: 0;
+    line-height: 28px;
+    width: 200px;
+  }
+  .spacer {
+    display: none
+  }
+  .toolbar_toggle-button {
+    display: flex;
+    position: absolute;
+    right: 20px;
+  }
+  .toolbar_navigation_items {
+    display: none;
+  }
   .mainSlider {
-    padding-top: 75px;
+    padding-top: 0;
     max-width: 100%;
   }
-
   .missionStatement {
-      font-size: 1.25rem;
-      font-weight: 500;
-      line-height: 1.6rem;
-      padding: 0 2rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    padding: 0 2rem;
   }
-
   .slide_1 img, .slide_2 img, .slide_3 img {
     width: 100%;
   }
-
   .slide_1 .slide_headline {
     position: absolute;
     width: 320px;
     top: 20px;
     left: 20px;
-    font-size: 1.8rem;
-    line-height: 2.1rem;
+    font-size: 1.75rem;
+    line-height: 2.0rem;
     text-shadow: 3px 3px 3px black;
   }
-  
   .slide_1 .slide_text {
     position: absolute;
     width: 300px;
@@ -497,80 +557,88 @@ li {
     font-weight: 600;
     text-shadow: 2px 2px 2px black;
   }
-  
   .slide_2 .slide_headline {
     position: absolute;
     width: 300px;
-    top: 20px;
+    top: 10px;
     right: 25px;
-    font-size: 1.8rem;
-    line-height: 2.1rem;
+    font-size: 1.75rem;
+    line-height: 2.0rem;
     text-shadow: 3px 3px 3px black;
     text-align: right;
   }
-  
   .slide_2 .slide_text {
     position: absolute;
     width: 260px;
-    top: 90px;
+    top: 80px;
     right: 25px;
     font-size: 1rem;
     font-weight: 600;
     text-shadow: 2px 2px 2px black;
     text-align: right;
   }
-  
   .slide_3 .slide_headline {
     position: absolute;
     width: 320px;
-    top: 105px;
+    top: 85px;
     left: 20px;
-    font-size: 1.8rem;
-    line-height: 2.1rem;
+    font-size: 1.75rem !important;
+    line-height: 2.0rem !important;
     text-shadow: 3px 3px 3px black;
   }
-  
   .slide_3 .slide_text {
     position: absolute;
     width: 320px;
-    top: 175px;
+    top: 155px;
     left: 20px;
-    font-size: 1rem;
+    font-size: 1rem !important;
     font-weight: 600;
     text-shadow: 2px 2px 2px black;
   }
-
   .subhead {
-      font-size: 1.375rem;
+    font-size: 1.375rem;
   }
-
   .sectionMainImageCaption {
-      padding: .75rem 0 .25rem;
-      text-align: left;
-      font-size: 1.125rem;
-      margin-bottom: .5rem;
+    padding: .75rem 0 .25rem;
+    text-align: left;
+    font-size: 1.125rem;
+    margin-bottom: .5rem;
   }
-
+  .speechList {
+    height: 150px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .speechList:hover {
+    overflow: visible;
+    height: auto;
+  }
+  .moreText {
+    display: block;
+    text-align: right;
+    margin-right: 20px;
+    font-size: .85rem;
+  }
+  .speechList:hover+.moreText {
+    display: none
+  }
   .img325, .img225, .img225-white {
-      display: none;
+    display: none;
   }
-
   .imgText {
-      text-align: left;
-      margin-left: 2rem;
-      padding-bottom: 1rem;
+    text-align: left;
+    margin-left: 2rem;
+    padding-bottom: 1rem;
   }
 
   .bioContainer {
     display: flex;
     flex-wrap: wrap;
   }
-
   .bio1 .bio2 {
     width: 100%;
     padding: .9rem 0 .1rem 1.5rem;
   }
-
   .bioImage1 {
     width: 9rem;
     margin-right: 1rem;
@@ -582,49 +650,39 @@ li {
     margin-left: 1rem;
   }
 
-  .bioText {
+  .aboutUs, .bioText {
     width: 100%;
-    max-width: 480px;
-  }
-
-  .aboutUsIndent {
-    padding: .9rem 0 .1rem 1.5rem;
+    max-width: 800px;
   }
 
   .bio1 .bioText {
     margin-right: 2.5rem;
   }
-
   .contactContainer {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     padding: 0;
   }
-
   .contactSocial {
     display: flex;
     justify-content: center;
     margin: 1.5rem 0;
   }
-  
-  .contactSocial .fab{
+  .contactSocial .fab {
     color: white;
     text-decoration: none;
-    margin: 0 1rem;;
+    margin: 0 1rem;
+    ;
   }
-  
   .contact1, .contact2 {
     padding: .25rem 0 1rem 1rem;
   }
-  
   .contactText p {
     margin: 1rem 0 -1rem 0;
   }
-
   .copyright {
     text-align: right;
     margin-bottom: 1rem;
   }
-
 }

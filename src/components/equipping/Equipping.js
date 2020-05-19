@@ -6,7 +6,7 @@ const Equipping = () => {
     return (
         <div className="container">
             <h2 className="subhead">Equipping / Education Tracks</h2>
-            <img className="sectionMainImage" src="https://foundationsincreations.s3.amazonaws.com/equippingMainImage.jpg" alt="Equipping / Education Tracks" title="Creation Science &amp; Bible-Based Courses / Seminars" />
+            <img className="sectionMainImage" src="https://foundationsincreations.s3.amazonaws.com/equippingMainImage_v2.jpg" alt="Equipping / Education Tracks" title="Creation Science &amp; Bible-Based Courses / Seminars" />
             <h5 className="sectionMainImageCaption">CREATION SCIENCE &amp; BIBLE-BASED COURSES / SEMINARS</h5>
             <ul className="speechList">
                 <li className="imgContainer">
@@ -55,6 +55,7 @@ const Equipping = () => {
                     IMAGE Workshops – <br/><em>A Seminar in Servant-hood Discovery</em></p>
                 </li>
             </ul>
+                <div className="moreText">...more</div>
         </div>
     )
 

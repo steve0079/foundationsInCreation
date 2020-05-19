@@ -7,12 +7,16 @@ const AboutUs = () => {
         <Fragment>
             <div className="container">
                 <h2 className="subhead">About Us</h2>
-                <img className="sectionMainImage" src="https://foundationsincreations.s3.amazonaws.com/aboutUsMain_v2.jpg" alt="About Us" title="About Us" />
-                <p className="aboutUs"><strong>Veterinarian Dr. Gay Zambrano</strong> and husband, <strong>Dan Zambrano</strong> love to speak and teach on the truth of God’s word and His creation.</p>
-                <p className="aboutUs">Both Dan and Gay are Ordained Pastors in the Free Methodist Church. They love teaching and preaching the Word of God to people of ALL AGES. They have worked with students from 4th &amp; 5th graders, through High School, College, and beyond!</p>
-                <p className="aboutUs">They have given talks at several Creation Science Groups as well as Youth Groups, Small Groups or Sunday morning sermons. Their teachings have covered such topics as:</p>
-                <p className="aboutUsIndent"><strong>“Twelve Biggest Lies”</strong> – used as sermon series for Sunday mornings</p>
-                <p className="aboutUsIndent"><strong>“Unlocking the Mysteries of Genesis”</strong> – used as Earth Science and Small Group curriculum</p>
+                <img className="sectionMainImage" src="https://foundationsincreations.s3.amazonaws.com/aboutUsMain_v3.jpg" alt="About Us" title="About Us" />
+                <div className="aboutUs">
+                    <p><strong>Veterinarian Dr. Gay Zambrano</strong> and husband, <strong>Dan Zambrano</strong> love to speak and teach on the truth of God’s word and His creation.</p>
+                    <p>Both Dan and Gay are Ordained Pastors in the Free Methodist Church. They love teaching and preaching the Word of God to people of ALL AGES. They have worked with students from 4th &amp; 5th graders, through High School, College, and beyond!</p>
+                    <p>They have given talks at several Creation Science Groups as well as Youth Groups, Small Groups or Sunday morning sermons. Their teachings have covered such topics as:</p>
+                </div>
+                <div className="aboutUsIndent">
+                    <p><strong>“Twelve Biggest Lies”</strong> – used as sermon series for Sunday mornings</p>
+                    <p><strong>“Unlocking the Mysteries of Genesis”</strong> – used as Earth Science and Small Group curriculum</p>
+                </div>
                 <div className="bioContainer">
                     <div className="bio1">
                         <img className="bioImage1" src="https://foundationsincreations.s3.amazonaws.com/zambranoG.jpg" alt="Dr. Gay Zambrano" title="Dr. Gay Zambrano" />

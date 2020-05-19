@@ -1,9 +1,11 @@
 import React from 'react'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import DrawerToggleButton from '../sideDrawer/DrawerToggleButton'
-import './navbar.css'
 
 const Navbar = props => (
+
+
+
     <header className='toolbar'>
         <nav className='toolbar_navigation'>
         <div className='toolbar_toggle-button'>
@@ -21,12 +23,12 @@ const Navbar = props => (
                     <a href="https://www.instagram.com/gayzambrano/" target="_self" rel="noopener noreferrer"><i className="fab fa-instagram fa-2x"></i></a>
                 </div>
                 <div className="navItems">
-                    <AnchorLink  offset='120' href='#CustomerSlider' className="item">HOME</AnchorLink>
-                    <AnchorLink  offset='120' href='#Equipping' className="item">EQUIPPING</AnchorLink>
-                    <AnchorLink  offset='120' href='#Evangelism' className="item">EVANGELISM</AnchorLink>
-                    <AnchorLink  offset='120' href='#TwoFourTwoMinistries' className="item">242 MINISTRIES</AnchorLink>
-                    <AnchorLink  offset='120' href='#AboutUs' className="item">ABOUT US</AnchorLink>
-                    <AnchorLink  offset='120' href="#Footer" className="item">CONTACT</AnchorLink>
+                    <AnchorLink  offset='50' href='#CustomerSlider' className="item">HOME</AnchorLink>
+                    <AnchorLink  offset='80' href='#Equipping' className="item">EQUIPPING</AnchorLink>
+                    <AnchorLink  offset='80' href='#Evangelism' className="item">EVANGELISM</AnchorLink>
+                    <AnchorLink  offset='80' href='#TwoFourTwoMinistries' className="item">242 MINISTRIES</AnchorLink>
+                    <AnchorLink  offset='80' href='#AboutUs' className="item">ABOUT US</AnchorLink>
+                    <AnchorLink  offset='80' href="#Footer" className="item">CONTACT</AnchorLink>
                 </div>
             </div>
         </nav>

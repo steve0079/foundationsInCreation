@@ -6,7 +6,7 @@ const Evangelism = () => {
     return (
         <div className="containerWhite">
             <h2 className="subhead">Evangelism / Pulpit Fill / Event Speaking</h2>
-            <img className="whiteSectionMainImage" src="https://foundationsincreations.s3.amazonaws.com/evangelismMainImage_v2.jpg" alt="Equipping / Education Tracks" title="Creation Science &amp; Bible-Based Courses / Seminars" />
+            <img className="whiteSectionMainImage" src="https://foundationsincreations.s3.amazonaws.com/evangelismMainImage_v3.jpg" alt="Equipping / Education Tracks" title="Creation Science &amp; Bible-Based Courses / Seminars" />
             <h5 className="sectionMainImageCaption">ORIGINAL / SUNDAY MORNING SERMONS:</h5>
             <ul className="speechList">
                 <li className="imgContainer">
@@ -24,8 +24,8 @@ const Evangelism = () => {
                     <p className="imgText">
                         "Marriage Is and Demonstrates the Precious Bond" <br />– Eph 5:21-33</p>
                 </li>
-
             </ul>
+            <div className="moreText">...more</div>
         </div>
     )
 
