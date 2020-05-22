@@ -23,7 +23,7 @@ const Navbar = props => (
                     <a href="https://www.instagram.com/gayzambrano/" target="_self" rel="noopener noreferrer"><i className="fab fa-instagram fa-2x"></i></a>
                 </div>
                 <div className="navItems">
-                    <AnchorLink  offset='50' href='#CustomerSlider' className="item">HOME</AnchorLink>
+                    <AnchorLink  offset='100' href='#CustomerSlider' className="item">HOME</AnchorLink>
                     <AnchorLink  offset='80' href='#Equipping' className="item">EQUIPPING</AnchorLink>
                     <AnchorLink  offset='80' href='#Evangelism' className="item">EVANGELISM</AnchorLink>
                     <AnchorLink  offset='80' href='#TwoFourTwoMinistries' className="item">242 MINISTRIES</AnchorLink>
