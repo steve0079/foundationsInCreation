@@ -10,19 +10,19 @@ const TwoFourTwoMinistries = () => {
             <h5 className="sectionMainImageCaption">COMMUNITY OUTREACH</h5>
             <ul className="speechList">
                 <li className="imgContainer">
-                    <img className="img225" src="https://foundationsincreations.s3.amazonaws.com/alohaParty.jpg" alt="Separating the Sheep from the Goats" title="Separating the Sheep from the Goats"/>
+                    <img className="img225" src="https://foundationsincreations.s3.amazonaws.com/alohaParty.jpg" alt="Separating the Sheep from the Goats" title="Separating the Sheep from the Goats" />
                     <p className="imgText">
-                    Aloha “Love of Jesus” party <br/>at Mountain Shadows Community homes in Escondido</p>
+                        Aloha “Love of Jesus” party <br />at Mountain Shadows Community homes in Escondido</p>
                 </li>
                 <li className="imgContainer">
                     <img className="img225" src="https://foundationsincreations.s3.amazonaws.com/fourthFridays.jpg" alt="Armor of God" title="Armor of God" />
                     <p className="imgText">
-                    4th Friday’s - Chapel Service <br/>at Long Beach Rescue Mission</p>
+                        4th Friday’s - Chapel Service <br />at Long Beach Rescue Mission</p>
                 </li>
                 <li className="imgContainer">
-                    <img className="img225" src="https://foundationsincreations.s3.amazonaws.com/puppetMinistry.jpg" alt="Puppet Ministry - training seminars or puppet “shows”" title="Puppet Ministry - training seminars or puppet “shows”" />
+                    <img className="img225" src="https://foundationsincreations.s3.amazonaws.com/puppetMinistry_v2.jpg" alt="Puppet Ministry - training seminars or puppet “shows”" title="Puppet Ministry - training seminars or puppet “shows”" />
                     <p className="imgText">
-                    Puppet Ministry - training seminars <br/>or puppet “shows”</p>
+                        Puppet Ministry - training seminars <br />or puppet “shows”</p>
                 </li>
             </ul>
             <div className="moreText">...more</div>

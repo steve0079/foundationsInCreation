@@ -1,3 +1,5 @@
+/* Main App */
+
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +12,73 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.App_Container {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+}
+
+h2 {
+  text-align: left;
+  font-weight: 700;
+}
+
+.container {
+  background-color: #0D0B21;
+  padding: 2rem;
+  height: 100%;
+  color: white;
+  text-align: center;
+}
+
+.containerWhite {
+  background-color: white;
+  padding: 2rem;
+  height: 100%;
+  color: #0D0B21;
+  text-align: center;
+}
+
+.containerGold {
+  background-color: #62481E;
+  padding: 2rem;
+  height: 100%;
+  color: white;
+  text-align: center;
+}
+
+.subhead {
+  font-size: 1.8rem;
+}
+
+.sectionMainImage {
+  border: 1px solid white;
+  margin-top: 1rem;
+  width: 100%;
+  max-width: 1024px;
+}
+
+.whiteSectionMainImage {
+  margin-top: 1rem;
+  width: 100%;
+  max-width: 1024px;
+  height: 100%;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, .5);
+}
+
+.sectionMainImageCaption {
+  padding: .5rem 0 1rem;
+  margin: 0 auto;
+  max-width: 1024px;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+/* NavBar Section */
 
 .toolbar {
   font-family: 'Open Sans', sans-serif;
@@ -99,19 +168,10 @@ body {
   color: rgb(255, 102, 0)
 }
 
-.App_Container {
-  position: relative;
-  min-height: 100vh;
-  width: 100%;
-}
-
-h2 {
-  text-align: left;
-  font-weight: 700;
-}
+/* Slider */
 
 .mainSlider {
-  padding-top: 120px;
+  padding-top: 100px;
   width: 100%;
   max-width: 1024px;
   margin: 0 auto;
@@ -142,7 +202,7 @@ h2 {
 .slide_2 .slide_headline {
   position: absolute;
   width: 500px;
-  top: 100px;
+  top: 50px;
   right: 30px;
   font-size: 3rem;
   line-height: 3.5rem;
@@ -154,7 +214,7 @@ h2 {
 .slide_2 .slide_text {
   position: absolute;
   width: 450px;
-  top: 220px;
+  top: 170px;
   right: 30px;
   font-size: 1.5rem;
   font-weight: 500;
@@ -196,59 +256,7 @@ h2 {
   text-transform: uppercase;
 }
 
-.container {
-  background-color: #0D0B21;
-  padding: 2rem;
-  height: 100%;
-  color: white;
-  text-align: center;
-}
-
-.containerWhite {
-  background-color: white;
-  padding: 2rem;
-  height: 100%;
-  color: #0D0B21;
-  text-align: center;
-}
-
-.containerGold {
-  background-color: #62481E;
-  padding: 2rem;
-  height: 100%;
-  color: white;
-  text-align: center;
-}
-
-.subhead {
-  font-size: 1.8rem;
-}
-
-.sectionMainImage {
-  border: 1px solid white;
-  margin-top: 1rem;
-  width: 100%;
-  max-width: 1024px;
-}
-
-.whiteSectionMainImage {
-  margin-top: 1rem;
-  width: 100%;
-  max-width: 1024px;
-  height: 100%;
-  overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, .5);
-}
-
-.sectionMainImageCaption {
-  padding: .5rem 0 1rem;
-  margin: 0 auto;
-  max-width: 1024px;
-  margin-bottom: 1.5rem;
-  text-align: center;
-  font-weight: 500;
-  font-size: 1.5rem;
-}
+/*About Section */
 
 .aboutUs, .bioText {
   padding: .9rem 0 .1rem;
@@ -266,45 +274,6 @@ h2 {
   text-align: left;
   font-weight: 300;
   font-size: 1rem;
-}
-
-.footer {
-  background-color: black;
-  padding: 2rem;
-  height: 100%;
-  color: white;
-  text-align: left;
-}
-
-.contactContainer {
-  display: flex;
-  width: 100%;
-  max-width: 1024px;
-  margin: 0 auto;
-}
-
-.contact1, .contact2 {
-  width: 100%;
-  max-width: 511px;
-  margin-left: 2rem;
-  padding-bottom: 2rem;
-}
-
-.contactText a {
-  color: white;
-}
-
-.contactSocial {
-  display: flex;
-  justify-content: center;
-  margin: 1.5rem 0;
-}
-
-.contactSocial .fab {
-  color: white;
-  text-decoration: none;
-  margin: 0 1rem;
-  ;
 }
 
 .speechList {
@@ -377,6 +346,47 @@ li {
   padding: 0 0 1rem 0;
 }
 
+/*Contact Us - Footer Section */
+
+.footer {
+  background-color: black;
+  padding: 2rem;
+  height: 100%;
+  color: white;
+  text-align: left;
+}
+
+.contactContainer {
+  display: flex;
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.contact1, .contact2 {
+  width: 100%;
+  max-width: 511px;
+  margin-left: 2rem;
+  padding-bottom: 2rem;
+}
+
+.contactText a {
+  color: white;
+}
+
+.contactSocial {
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem 0;
+}
+
+.contactSocial .fab {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+  ;
+}
+
 .copyright {
   font-size: .75rem;
   text-align: center;
@@ -384,46 +394,42 @@ li {
 }
 
 @media screen and (min-width: 801px) and (max-width: 1023px) {
+  /*NavBar Section */
   .toolbar {
     height: 90px;
     position: fixed;
-}
-
-.logoImage {
+  }
+  .logoImage {
     height: 58px;
     width: 42px;
     margin-left: 0px;
-}
-
-.logoType {
+  }
+  .logoType {
     font-size: 2rem;
     margin-left: .5rem;
     letter-spacing: 0;
     line-height: 30px;
     width: 200px;
-}
-
-.toolbar_navigation_items .item {
+  }
+  .toolbar_navigation_items .item {
     font-size: .7rem;
     font-weight: 300;
     color: black;
     text-decoration: none;
     padding: 12px;
     padding-bottom: 10px;
-}
-
-.fab {
-font-size: 1.5rem;
-margin-bottom: 10px;
-}
-
+  }
+  .fab {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  /*Slider Section */
   .mainSlider {
     width: 100%;
     padding-top: 90px;
     margin: 0 auto;
     color: white;
   }
-  
   .slide_1 img, .slide_2 img, .slide_3 img {
     width: 100%;
   }
@@ -483,7 +489,7 @@ margin-bottom: 10px;
     font-weight: 600;
     text-shadow: 2px 2px 2px black;
   }
-
+  /*About Us Section */
   .aboutUs, .aboutUsIndent {
     width: 100%;
     max-width: 1023px;
@@ -492,10 +498,52 @@ margin-bottom: 10px;
 }
 
 @media screen and (max-width: 800px) {
+  /* Main App */
+  .subhead {
+    font-size: 1.375rem;
+  }
+  .sectionMainImageCaption {
+    padding: .75rem 0 .25rem;
+    text-align: left;
+    font-size: 1.125rem;
+    margin-bottom: .5rem;
+  }
+
+  .speechList {
+    height: 150px;
+    overflow: hidden;
+  }
+  
+  .moreText {
+    display: block;
+    text-align: right;
+    margin-right: 20px;
+    font-size: .85rem;
+    cursor: pointer;
+  }
+  
+  .speechList:hover {
+    height: auto !important;
+    overflow: visible !important;
+  }
+
+  .speechList:hover + .moreText {
+    display: none;
+  }
+  
+  .img325, .img225, .img225-white {
+    display: none;
+  }
+  .imgText {
+    text-align: left;
+    margin-left: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  /*NavBar Section */
   .toolbar {
-    position: sticky;
-    top: -76px;
-    height: 76px;
+    position: fixed;
+    height: 70px;
     display: flex;
     background: rgb(255, 255, 255);
   }
@@ -526,8 +574,10 @@ margin-bottom: 10px;
   .toolbar_navigation_items {
     display: none;
   }
+
+  /*Slider Section */
   .mainSlider {
-    padding-top: 0;
+    padding-top: 70px;
     max-width: 100%;
   }
   .missionStatement {
@@ -595,43 +645,15 @@ margin-bottom: 10px;
     font-weight: 600;
     text-shadow: 2px 2px 2px black;
   }
-  .subhead {
-    font-size: 1.375rem;
-  }
-  .sectionMainImageCaption {
-    padding: .75rem 0 .25rem;
-    text-align: left;
-    font-size: 1.125rem;
-    margin-bottom: .5rem;
-  }
-  .speechList {
-    height: 150px;
-    overflow: hidden;
-    cursor: pointer;
-  }
-  .speechList:hover {
-    overflow: visible;
-    height: auto;
-  }
-  .moreText {
-    display: block;
-    text-align: right;
-    margin-right: 20px;
-    font-size: .85rem;
-  }
   
-  .speechList:hover+.moreText {
-    display: none
+  /* About Us Section */
+  .aboutUs, .bioText {
+    width: 100%;
+    max-width: 800px;
   }
-  .img325, .img225, .img225-white {
-    display: none;
+  .bio1 .bioText {
+    margin-right: 2.5rem;
   }
-  .imgText {
-    text-align: left;
-    margin-left: 2rem;
-    padding-bottom: 1rem;
-  }
-
   .bioContainer {
     display: flex;
     flex-wrap: wrap;
@@ -650,15 +672,7 @@ margin-bottom: 10px;
     padding-right: 0rem;
     margin-left: 1rem;
   }
-
-  .aboutUs, .bioText {
-    width: 100%;
-    max-width: 800px;
-  }
-
-  .bio1 .bioText {
-    margin-right: 2.5rem;
-  }
+  /* Contact Us Section */
   .contactContainer {
     display: flex;
     flex-direction: column;
