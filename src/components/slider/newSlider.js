@@ -5,9 +5,12 @@ const CustomSlider = () => {
 
     const settings = {
         autoplay: true,
-        autoplaySpeed: 6000,
+        autoplaySpeed: 7000,
         arrows: false,
-        dots: false,
+        dots: true,
+        duration: 300,
+        swipe: true,
+        dotClass: "carousel-dots"
     }
 
     return(

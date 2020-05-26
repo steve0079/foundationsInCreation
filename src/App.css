@@ -178,6 +178,8 @@ h2 {
   color: white;
 }
 
+/*  */
+
 .slide_1 .slide_headline {
   position: absolute;
   width: 500px;
@@ -509,26 +511,73 @@ li {
     margin-bottom: .5rem;
   }
 
-  .speechList {
+  .containerGold {
+    position: -webkit-sticky;
+    position: sticky;
+    top: -1px;
+  }
+
+  .containerGold .speechList {
     height: 150px;
     overflow: hidden;
+    text-overflow: ellipsis;
+    content: "";
+    background:
+      -webkit-linear-gradient(#fff, #62481E);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+
+  .container .speechList {
+    height: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    content: "";
+    background:
+      -webkit-linear-gradient(#fff, #0D0B21);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+
+  .containerWhite .speechList {
+    height: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    content: "";
+    background:
+      -webkit-linear-gradient(#0D0B21, #fff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
   }
   
+  .speechList:hover {
+    height: auto !important;
+    overflow: visible !important;
+    color: white;
+    background: -webkit-linear-gradient(#fff, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;;
+  }
+
+  .containerWhite .speechList:hover {
+    height: auto !important;
+    overflow: visible !important;
+    color: white;
+    background: -webkit-linear-gradient(#0D0B21, #0D0B21);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;;
+  }
+  
+  .speechList:hover + .moreText {
+    display: none;
+  }
+
   .moreText {
     display: block;
     text-align: right;
     margin-right: 20px;
     font-size: .85rem;
     cursor: pointer;
-  }
-  
-  .speechList:hover {
-    height: auto !important;
-    overflow: visible !important;
-  }
-
-  .speechList:hover + .moreText {
-    display: none;
   }
   
   .img325, .img225, .img225-white {
