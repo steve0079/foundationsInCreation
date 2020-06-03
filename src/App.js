@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import ScrollToTop from './utils/ScrollToTop'
+import ScrollUp from './utils/ScrollUpButton'
 import './App.css';
+
 
 import Navbar from './components/navbar/Navbar';
 import SideDrawer from './components/sideDrawer/SideDrawer';
@@ -37,13 +38,12 @@ const App = () => {
       <div style={{ height: '100%' }}>
         <Router>
           <Navbar drawerClickHandler={drawerToggleClickHandler} />
-          <ScrollToTop>
-            <SideDrawer show={state.sideDrawerOpen} drawerClickHandler={drawerToggleClickHandler} />
-            {backdrop}
-            <Switch>
-              <Route exact path='/' component={Home} />>
+            <ScrollUp />
+              <SideDrawer show={state.sideDrawerOpen} drawerClickHandler={drawerToggleClickHandler} />
+              {backdrop}
+              <Switch>
+                <Route exact path='/' component={Home} />>
             </Switch>
-          </ScrollToTop>
         </Router>
       </div>
     </div>
