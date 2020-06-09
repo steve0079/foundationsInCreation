@@ -25,7 +25,6 @@ const TwoFourTwoMinistries = () => {
                         Puppet Ministry - training seminars <br />or puppet “shows”</p>
                 </li>
             </ul>
-            <div className="moreText">...more</div>
         </div>
     )
 

@@ -511,44 +511,25 @@ li {
   }
   .speechList {
     cursor: pointer;
-    height: 150px;
+    height: 250px;
     overflow: hidden;
     text-overflow: ellipsis;
-    content: "";
-    background: -webkit-linear-gradient(to bottom, white 65%, transparent);
-    background: linear-gradient(to bottom, white 65%, transparent);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
+
   }
   .speechList:hover {
     height: auto;
-    background: white;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
+
   }
   .containerWhite .speechList {
     cursor: pointer;
-    height: 150px;
+    height: 250px;
     overflow: hidden;
     text-overflow: ellipsis;
-    content: "";
-    background: linear-gradient(to bottom, #0D0B21 65%, transparent);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
+
   }
   .containerWhite .speechList:hover {
     height: auto;
-    background: #0D0B21;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
+
   }
   .moreText {
     display: block;
@@ -723,7 +704,6 @@ li {
     margin: 1rem 0 -1rem 0;
   }
   .copyright {
-    text-align: right;
     margin-bottom: 1rem;
   }
 }

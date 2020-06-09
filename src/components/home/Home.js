@@ -1,5 +1,7 @@
 import React from 'react';
 
+import ScrollArrow from '../../utils/ScrollUpArrow'
+
 import CustomSlider from '../slider/newSlider'
 import Equipping from '../equipping/Equipping';
 import Evangelism from '../evangelism/Evangelism';
@@ -11,6 +13,7 @@ const Home = () => {
 
   return (
     <div>
+      <ScrollArrow />
       <section id='CustomSlider'><CustomSlider /></section>
       <h4 className="missionStatement">
         “To educate, enlighten &amp; illuminate people

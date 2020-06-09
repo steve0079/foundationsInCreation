@@ -25,7 +25,6 @@ const Evangelism = () => {
                         "Marriage Is and Demonstrates the Precious Bond" <br />– Eph 5:21-33</p>
                 </li>
             </ul>
-            <div className="moreText">...more</div>
         </div>
     )
 
