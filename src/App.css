@@ -436,7 +436,7 @@ li {
   }
   .slide_1 .slide_headline {
     position: absolute;
-    width: 400px;
+    width: 500px;
     top: 50px;
     left: 60px;
     font-size: 2.25rem;
@@ -445,8 +445,8 @@ li {
   }
   .slide_1 .slide_text {
     position: absolute;
-    width: 380px;
-    top: 150px;
+    width: 500px;
+    top: 185px;
     left: 60px;
     font-size: 1.125rem;
     font-weight: 600;
