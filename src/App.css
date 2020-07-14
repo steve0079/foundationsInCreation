@@ -181,10 +181,10 @@ h2 {
 
 .slide_1 .slide_headline {
   position: absolute;
-  width: 500px;
-  top: 360px;
+  width: 550px;
+  top: 320px;
   left: 30px;
-  font-size: 3rem;
+  font-size: 2.5rem;
   line-height: 3.5rem;
   font-weight: 700;
   text-shadow: 3px 3px 3px black;
@@ -192,8 +192,8 @@ h2 {
 
 .slide_1 .slide_text {
   position: absolute;
-  width: 400px;
-  top: 480px;
+  width: 650px;
+  top: 500px;
   left: 30px;
   font-size: 1.5rem;
   font-weight: 500;
@@ -599,7 +599,7 @@ li {
   }
   .slide_1 .slide_headline {
     position: absolute;
-    width: 320px;
+    width: 350px;
     top: 20px;
     left: 20px;
     font-size: 1.75rem;
@@ -608,8 +608,8 @@ li {
   }
   .slide_1 .slide_text {
     position: absolute;
-    width: 300px;
-    top: 90px;
+    width: 340px;
+    top: 130px;
     left: 20px;
     font-size: 1rem;
     font-weight: 600;

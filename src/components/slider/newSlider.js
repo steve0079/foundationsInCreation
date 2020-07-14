@@ -18,8 +18,8 @@ const CustomSlider = () => {
             <Slider {...settings}>
                 <div className="slide_1">
                     <img src="https://foundationsincreations.s3.amazonaws.com/logoLrgV3.jpg" alt="Foundations in Creation Logo" title="Foundations in Creation" />
-                    <h3 className="slide_headline">First Image Headline Goes Here</h3>
-                    <p className="slide_text">This will be the description text that will go one or two lines.</p>
+                    <h3 className="slide_headline">Welcome to <br/>Foundations in Creation <br/>& 242 Ministries Website</h3>
+                    <p className="slide_text">We have a passion for helping seekers discover answers, equipping the saints, &amp; encouraging the body of Christ.</p>
                 </div>
                 <div className="slide_2">
                     <img src="https://foundationsincreations.s3.amazonaws.com/galTor_dan-1024x600.jpg" alt="Dan with a Galapagos Tortoise" title="Dan Zambrano with a Galapagos Tortoise" />
