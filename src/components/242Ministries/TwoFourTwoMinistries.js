@@ -8,7 +8,7 @@ const TwoFourTwoMinistries = () => {
             <h2 className="subhead">242 Ministries</h2>
             <img className="sectionMainImage" src="https://foundationsincreations.s3.amazonaws.com/communityOutreachMain_v4.jpg" alt="Equipping / Education Tracks" title="Creation Science &amp; Bible-Based Courses / Seminars" />
             <h5 className="sectionMainImageCaption">COMMUNITY OUTREACH</h5>
-            <ul className="speechList">
+            <ul>
                 <li className="imgContainer">
                     <img className="img225" src="https://foundationsincreations.s3.amazonaws.com/alohaParty_v2.jpg" alt="Separating the Sheep from the Goats" title="Separating the Sheep from the Goats" />
                     <p className="imgText">

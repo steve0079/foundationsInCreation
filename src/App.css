@@ -496,6 +496,10 @@ li {
     max-width: 1023px;
     font-size: .6rem;
   }
+
+  .sectionMainImageCaption {
+    font-size: 1.25rem;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -504,14 +508,16 @@ li {
     font-size: 1.375rem;
   }
   .sectionMainImageCaption {
-    padding: .75rem 0 .25rem;
-    text-align: left;
+    padding: .85rem 0 .25rem;
+    width: 300px;
+    text-align: center;
     font-size: 1.125rem;
     margin-bottom: .5rem;
   }
+  
   .speechList {
     cursor: pointer;
-    height: 250px;
+    height: 160px;
     overflow: hidden;
     text-overflow: ellipsis;
 
@@ -537,6 +543,7 @@ li {
     margin-right: 20px;
     font-size: .85rem;
     cursor: pointer;
+    padding-bottom: 10px;
   }
   .speechList:hover+.moreText {
     display: none;

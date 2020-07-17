@@ -35,6 +35,7 @@ const Equipping = () => {
                         “Let There Be Light” – <br /><em>A Veterinary Perspective on Stem Cell Therapy and Therapeutic Laser Medicine</em></p>
                 </li>
             </ul>
+            <div className="moreText">...more</div>
             <h5 className="sectionMainImageCaption">LEADERSHIP DISCOVER, TEAM, &amp; RELATIONSHIP BUILDING COURSES</h5>
             <ul className="speechList">
                 <li className="imgContainer">
