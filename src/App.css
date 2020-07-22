@@ -202,7 +202,7 @@ h2 {
 
 .slide_2 .slide_headline {
   position: absolute;
-  width: 500px;
+  width: 650px;
   top: 50px;
   right: 30px;
   font-size: 3rem;
@@ -226,21 +226,23 @@ h2 {
 .slide_3 .slide_headline {
   position: absolute;
   width: 500px;
-  top: 80px;
-  left: 30px;
+  top: 360px;
+  right: 30px;
   font-size: 3rem;
   line-height: 3.5rem;
+  text-align: right;
   font-weight: 700;
   text-shadow: 3px 3px 3px black;
 }
 
 .slide_3 .slide_text {
   position: absolute;
-  width: 400px;
-  top: 200px;
-  left: 30px;
+  width: 480px;
+  top: 480px;
+  right: 30px;
   font-size: 1.5rem;
   font-weight: 500;
+  text-align: right;
   text-shadow: 2px 2px 2px black;
 }
 
@@ -277,7 +279,7 @@ h2 {
   font-size: 1rem;
 }
 
-.speechList {
+.speechList, .speechList2 {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -454,9 +456,9 @@ li {
   }
   .slide_2 .slide_headline {
     position: absolute;
-    width: 420px;
+    width: 500px;
     top: 50px;
-    right: 75px;
+    right: 60px;
     font-size: 2.25rem;
     line-height: 2.5rem;
     text-shadow: 3px 3px 3px black;
@@ -465,8 +467,8 @@ li {
   .slide_2 .slide_text {
     position: absolute;
     width: 380px;
-    top: 150px;
-    right: 75px;
+    top: 135px;
+    right: 60px;
     font-size: 1.125rem;
     font-weight: 600;
     text-shadow: 2px 2px 2px black;
@@ -475,20 +477,22 @@ li {
   .slide_3 .slide_headline {
     position: absolute;
     width: 400px;
-    top: 50px;
-    left: 60px;
+    top: 300px;
+    right: 60px;
     font-size: 2.25rem;
     line-height: 2.5rem;
     text-shadow: 3px 3px 3px black;
+    text-align: right;
   }
   .slide_3 .slide_text {
     position: absolute;
     width: 380px;
-    top: 150px;
-    left: 60px;
+    top: 390px;
+    right: 60px;
     font-size: 1.125rem;
     font-weight: 600;
     text-shadow: 2px 2px 2px black;
+    text-align: right;
   }
   /*About Us Section */
   .aboutUs, .aboutUsIndent {
@@ -496,7 +500,6 @@ li {
     max-width: 1023px;
     font-size: .6rem;
   }
-
   .sectionMainImageCaption {
     font-size: 1.25rem;
   }
@@ -514,28 +517,26 @@ li {
     font-size: 1.125rem;
     margin-bottom: .5rem;
   }
-  
   .speechList {
     cursor: pointer;
     height: 160px;
     overflow: hidden;
     text-overflow: ellipsis;
-
   }
   .speechList:hover {
     height: auto;
-
   }
   .containerWhite .speechList {
     cursor: pointer;
     height: 250px;
     overflow: hidden;
     text-overflow: ellipsis;
-
+  }
+  .imgContainer.showMobile {
+    align-items: center;
   }
   .containerWhite .speechList:hover {
     height: auto;
-
   }
   .moreText {
     display: block;
@@ -545,16 +546,19 @@ li {
     cursor: pointer;
     padding-bottom: 10px;
   }
-  .speechList:hover+.moreText {
-    display: none;
-  }
   .img325, .img225, .img225-white {
     display: none;
+  }
+  .img225-white.showMobile {
+    display: flex;
   }
   .imgText {
     text-align: left;
     margin-left: 2rem;
     padding-bottom: 1rem;
+  }
+  .imgText.showMobile {
+    text-align: center;
   }
   /*NavBar Section */
   .toolbar {
@@ -624,9 +628,9 @@ li {
   }
   .slide_2 .slide_headline {
     position: absolute;
-    width: 300px;
+    width: 360px;
     top: 10px;
-    right: 25px;
+    right: 30px;
     font-size: 1.75rem;
     line-height: 2.0rem;
     text-shadow: 3px 3px 3px black;
@@ -635,8 +639,8 @@ li {
   .slide_2 .slide_text {
     position: absolute;
     width: 260px;
-    top: 80px;
-    right: 25px;
+    top: 85px;
+    right: 30px;
     font-size: 1rem;
     font-weight: 600;
     text-shadow: 2px 2px 2px black;
@@ -644,21 +648,23 @@ li {
   }
   .slide_3 .slide_headline {
     position: absolute;
-    width: 320px;
-    top: 85px;
-    left: 20px;
+    width: 360px;
+    top: 110px;
+    right: 20px;
     font-size: 1.75rem !important;
     line-height: 2.0rem !important;
     text-shadow: 3px 3px 3px black;
+    text-align: right;
   }
   .slide_3 .slide_text {
     position: absolute;
-    width: 320px;
-    top: 155px;
-    left: 20px;
+    width: 330px;
+    top: 180px;
+    right: 20px;
     font-size: 1rem !important;
     font-weight: 600;
     text-shadow: 2px 2px 2px black;
+    text-align: right;
   }
   /* About Us Section */
   .aboutUs, .bioText {

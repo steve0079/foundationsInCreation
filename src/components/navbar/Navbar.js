@@ -26,7 +26,7 @@ const Navbar = props => (
                     <AnchorLink  offset='100' href='#CustomerSlider' className="item">HOME</AnchorLink>
                     <AnchorLink  offset='80' href='#AboutUs' className="item">ABOUT US</AnchorLink>
                     <AnchorLink  offset='80' href='#Equipping' className="item">EQUIPPING</AnchorLink>
-                    <AnchorLink  offset='80' href='#Evangelism' className="item">EVANGELISM</AnchorLink>
+                    <AnchorLink  offset='80' href='#Evangelism' className="item">EVENT SPEAKING</AnchorLink>
                     <AnchorLink  offset='80' href='#TwoFourTwoMinistries' className="item">242 MINISTRIES</AnchorLink>
                     <AnchorLink  offset='80' href="#Footer" className="item">CONTACT</AnchorLink>
                 </div>

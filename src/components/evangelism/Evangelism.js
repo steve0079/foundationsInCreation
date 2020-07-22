@@ -5,8 +5,8 @@ const Evangelism = () => {
 
     return (
         <div className="containerWhite">
-            <h2 className="subhead">Evangelism / Pulpit Fill / Event Speaking</h2>
-            <img className="whiteSectionMainImage" src="https://foundationsincreations.s3.amazonaws.com/evangelismMainImage_v3.jpg" alt="Equipping / Education Tracks" title="Creation Science &amp; Bible-Based Courses / Seminars" />
+            <h2 className="subhead">Event Speaking / Pulpit Fill / Worship Leading</h2>
+            <img className="whiteSectionMainImage" src="https://foundationsincreations.s3.amazonaws.com/eventSpeaking.jpg" alt="Equipping / Education Tracks" title="Creation Science &amp; Bible-Based Courses / Seminars" />
             <h5 className="sectionMainImageCaption">ORIGINAL / SUNDAY MORNING SERMONS:</h5>
             <ul className="speechList">
                 <li className="imgContainer">
@@ -23,6 +23,13 @@ const Evangelism = () => {
                     <img className="img225-white" src="https://foundationsincreations.s3.amazonaws.com/preciousBond.png" alt="Marriage: The Precious Bond" title="Marriage Is and Demonstrates the Precious Bond" />
                     <p className="imgText">
                         "Marriage Is and Demonstrates the Precious Bond" <br />– Eph 5:21-33</p>
+                </li>
+            </ul>
+            <h5 className="sectionMainImageCaption">Many more available, including specific requests... </h5>
+            <ul className="speechList2">
+            <li className="imgContainer showMobile">
+                    <img className="img225-white showMobile" src="https://foundationsincreations.s3.amazonaws.com/gaySingV2.jpg" alt="Marriage: The Precious Bond" title="Marriage Is and Demonstrates the Precious Bond" />
+                    <p className="imgText showMobile"><strong>Worship Leading</strong></p>
                 </li>
             </ul>
         </div>

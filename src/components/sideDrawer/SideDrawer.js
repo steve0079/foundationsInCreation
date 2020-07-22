@@ -18,7 +18,7 @@ const sideDrawer = props => {
                     <li><AnchorLink offset='80' href='#CustomerSlider' className="item">HOME</AnchorLink></li>
                     <li><AnchorLink offset='60' href='#AboutUs' className="item">ABOUT US</AnchorLink></li>
                     <li><AnchorLink offset='60' href='#Equipping' className="item">EQUIPPING</AnchorLink></li>
-                    <li><AnchorLink offset='60' href='#Evangelism' className="item">EVANGELISM</AnchorLink></li>
+                    <li><AnchorLink offset='60' href='#Evangelism' className="item">EVENT SPEAKING</AnchorLink></li>
                     <li><AnchorLink offset='60' href='#TwoFourTwoMinistries' className="item">242 MINISTRIES</AnchorLink></li>
                     <li><AnchorLink offset='60' href="#Footer" className="item">CONTACT</AnchorLink></li>
                 </ul>

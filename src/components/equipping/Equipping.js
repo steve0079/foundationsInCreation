@@ -36,12 +36,13 @@ const Equipping = () => {
                 </li>
             </ul>
             <div className="moreText">...more</div>
-            <h5 className="sectionMainImageCaption">LEADERSHIP DISCOVER, TEAM, &amp; RELATIONSHIP BUILDING COURSES</h5>
+            <img className="sectionMainImage" src="https://foundationsincreations.s3.amazonaws.com/equippingSecondaryImage.jpg" alt="Equipping / Education Tracks" title="Creation Science &amp; Bible-Based Courses / Seminars" />
+            <h5 className="sectionMainImageCaption">LEADERSHIP DISCOVERY, TEAM, &amp; RELATIONSHIP BUILDING COURSES</h5>
             <ul className="speechList">
                 <li className="imgContainer">
-                    <img className="img325" src="https://foundationsincreations.s3.amazonaws.com/12biggestLies_v5.jpg" alt="12 Biggest Lies" title="12 Biggest Lies" />
+                    <img className="img325" src="https://foundationsincreations.s3.amazonaws.com/preMarital_v3.jpg" alt="Pre-Marital and Couples Counseling" title="Pre-Marital and Couples Counseling" />
                     <p className="imgText">
-                        “12 Biggest Lies”, “The Truth Project”, “Nativity vs Not-Tivity”</p>
+                        Pre-Marital and Couples Counseling &amp; Prepare-Enrich Assessment Training</p>
                 </li>
                 <li className="imgContainer">
                     <img className="img225" src="https://foundationsincreations.s3.amazonaws.com/imageWorkshop_2.png" alt="I.M.A.G.E. Workshop" title="I.M.A.G.E. Workshop" />
@@ -49,14 +50,14 @@ const Equipping = () => {
                         IMAGE Workshops – <br /><em>A Seminar in Servant-hood Discovery</em></p>
                 </li>
                 <li className="imgContainer">
-                    <img className="img325" src="https://foundationsincreations.s3.amazonaws.com/preMarital_v3.jpg" alt="Pre-Marital and Couples Counseling" title="Pre-Marital and Couples Counseling" />
-                    <p className="imgText">
-                        Pre-Marital and Couples Counseling &amp; Prepare-Enrich Assessment Training</p>
-                </li>
-                <li className="imgContainer">
-                    <img className="img225" src="https://foundationsincreations.s3.amazonaws.com/zombieBrain.png" alt="Digial Zombies, Sexuality &amp; Gender Confusion" title="Digial Zombies, Sexuality &amp; Gender Confusion" />
+                    <img className="img225" src="https://foundationsincreations.s3.amazonaws.com/zombieBrain_v2.png" alt="Digial Zombies, Sexuality &amp; Gender Confusion" title="Digial Zombies, Sexuality &amp; Gender Confusion" />
                     <p className="imgText">
                         “Digital Zombies”, “Sexuality &amp; Gender Confusion” –<br /><em>Discussion and Biblical-based Exploration These Topics &amp; More</em></p>
+                </li>
+                <li className="imgContainer">
+                    <img className="img325" src="https://foundationsincreations.s3.amazonaws.com/12biggestLies_v5.jpg" alt="12 Biggest Lies" title="12 Biggest Lies" />
+                    <p className="imgText">
+                        “12 Biggest Lies”, “The Truth Project”, “Nativity vs Not-Tivity”</p>
                 </li>
             </ul>
             <div className="moreText">...more</div>
