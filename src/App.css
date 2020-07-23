@@ -226,7 +226,7 @@ h2 {
 .slide_3 .slide_headline {
   position: absolute;
   width: 500px;
-  top: 360px;
+  top: 50px;
   right: 30px;
   font-size: 3rem;
   line-height: 3.5rem;
@@ -238,7 +238,7 @@ h2 {
 .slide_3 .slide_text {
   position: absolute;
   width: 480px;
-  top: 480px;
+  top: 170px;
   right: 30px;
   font-size: 1.5rem;
   font-weight: 500;
