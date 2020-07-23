@@ -24,7 +24,7 @@ const AboutUs = () => {
                     <div className="bio2">
                         <img className="bioImage2" src="https://foundationsincreations.s3.amazonaws.com/zambranoD.jpg" alt="Dan Zambrano" title="Dan Zambrano" />
                         <div className="bioText">
-                            <p>Husband <strong>Dan Zambrano</strong> has a B.S. in Marine Biology from California State University Long Beach. He is a Licensed Registered Veterinary Technician. </p>
+                            <p><strong>Dan Zambrano</strong> has a B.S. in Marine Biology from California State University Long Beach. He is a Licensed Registered Veterinary Technician. </p>
                             <p>He has worked at Cabrillo Aquarium, the Los Angeles Harbor Department, California State Fish &amp; Game Department, and the Los Angeles Zoo before partnering in the mobile veterinary practice with his wife. Dan is a certified speaker for the IAC (International Association for Creation). He is currently working on biblical creation based guide book for local zoos in Southern California.</p>
                         </div>
                     </div>
