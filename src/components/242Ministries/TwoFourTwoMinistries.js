@@ -17,12 +17,12 @@ const TwoFourTwoMinistries = () => {
                 <li className="imgContainer">
                     <img className="img225" src="https://foundationsincreations.s3.amazonaws.com/fourthFridays_v2.jpg" alt="4th Friday's at Long Beach Rescue Mission" title="4th Friday's at Long Beach Rescue Mission" />
                     <p className="imgText">
-                        4th Friday’s - Chapel Service <br />at Long Beach Rescue Mission</p>
+                        Homeless Outreach 4th Friday’s Chapel Service at Long Beach Rescue Mission</p>
                 </li>
                 <li className="imgContainer">
                     <img className="img225" src="https://foundationsincreations.s3.amazonaws.com/puppetMinistry_v2.jpg" alt="Puppet Ministry - training seminars or puppet “shows”" title="Puppet Ministry - training seminars or puppet “shows”" />
                     <p className="imgText">
-                        Puppet Ministry - training seminars <br />or puppet “shows”</p>
+                        Puppet Ministry - training seminars <br />and puppet shows</p>
                 </li>
             </ul>
         </div>

@@ -12,7 +12,7 @@ const Equipping = () => {
                 <li className="imgContainer">
                     <img className="img225" src="https://foundationsincreations.s3.amazonaws.com/truthAboutDinosaurs_v2.jpg" alt="Truth About Dinosaurs" title="Truth About Dinosaurs" />
                     <p className="imgText">
-                        The Truth About Dinosaurs &amp; Other Biblical-based Science Teachings</p>
+                    Uncovering the Truth About Dinosaurs <em>Unlocking the Mysteries of Genesis &amp; more Biblical-based Science teachings</em></p>
                 </li>
                 <li className="imgContainer">
                     <img className="img225" src="https://foundationsincreations.s3.amazonaws.com/birdsFromReptiles_v2.jpg" alt="Birds From Reptiles... REALLY?" title="Birds From Reptiles... REALLY?" />
@@ -23,6 +23,21 @@ const Equipping = () => {
                     <img className="img325" src="https://foundationsincreations.s3.amazonaws.com/dogsHeaven_v3.jpg" alt="If All Dogs Go To Heaven..." title="If All Dogs Go To Heaven..." />
                     <p className="imgText">
                         “If All Dogs Got to Heaven…<br /> What about Cats?” – <br /><em>A Thought Provoking Presentation on the idea of Animals Being Present in Heaven or on the New Earth</em></p>
+                </li>
+                <li className="imgContainer">
+                    <img className="img325" src="https://foundationsincreations.s3.amazonaws.com/biggestLies.jpg" alt="12 Biggest Lies" title="12 Biggest Lies" />
+                    <p className="imgText">
+                        “12 Biggest Lies”</p>
+                </li>
+                <li className="imgContainer">
+                    <img className="img325" src="https://foundationsincreations.s3.amazonaws.com/truthProject.jpg" alt="12 Biggest Lies" title="12 Biggest Lies" />
+                    <p className="imgText">
+                        “The Truth Project”</p>
+                </li>
+                <li className="imgContainer">
+                    <img className="img325" src="https://foundationsincreations.s3.amazonaws.com/12biggestLies_v5.jpg" alt="12 Biggest Lies" title="12 Biggest Lies" />
+                    <p className="imgText">
+                        “Nativity vs Not-Tivity”</p>
                 </li>
                 <li className="imgContainer">
                     <img className="img225" src="https://foundationsincreations.s3.amazonaws.com/creaturesGreatSmall.png" alt="Creatures Great and Small" title="Creatures Great and Small" />
@@ -40,11 +55,6 @@ const Equipping = () => {
             <h5 className="sectionMainImageCaption">LEADERSHIP DISCOVERY, TEAM, &amp; RELATIONSHIP BUILDING COURSES</h5>
             <ul className="speechList">
                 <li className="imgContainer">
-                    <img className="img325" src="https://foundationsincreations.s3.amazonaws.com/preMarital_v3.jpg" alt="Pre-Marital and Couples Counseling" title="Pre-Marital and Couples Counseling" />
-                    <p className="imgText">
-                        Pre-Marital and Couples Counseling &amp; Prepare-Enrich Assessment Training</p>
-                </li>
-                <li className="imgContainer">
                     <img className="img225" src="https://foundationsincreations.s3.amazonaws.com/imageWorkshop_2.png" alt="I.M.A.G.E. Workshop" title="I.M.A.G.E. Workshop" />
                     <p className="imgText">
                         IMAGE Workshops – <br /><em>A Seminar in Servant-hood Discovery</em></p>
@@ -55,9 +65,14 @@ const Equipping = () => {
                         “Digital Zombies”, “Sexuality &amp; Gender Confusion” –<br /><em>Discussion and Biblical-based Exploration These Topics &amp; More</em></p>
                 </li>
                 <li className="imgContainer">
-                    <img className="img325" src="https://foundationsincreations.s3.amazonaws.com/12biggestLies_v5.jpg" alt="12 Biggest Lies" title="12 Biggest Lies" />
+                    <img className="img325" src="https://foundationsincreations.s3.amazonaws.com/preMarital_v4.jpg" alt="Pre-Marital and Couples Counseling" title="Pre-Marital and Couples Counseling" />
                     <p className="imgText">
-                        “12 Biggest Lies”, “The Truth Project”, “Nativity vs Not-Tivity”</p>
+                        Pre-Marital, Pre-Engagement, &amp; Couples Counseling</p>
+                </li>
+                <li className="imgContainer">
+                    <img className="img325" src="https://foundationsincreations.s3.amazonaws.com/prepareEnrich.jpg" alt="Pre-Marital and Couples Counseling" title="Pre-Marital and Couples Counseling" />
+                    <p className="imgText">
+                        Prepare-Enrich Facilitator Training</p>
                 </li>
             </ul>
             <div className="moreText">...more</div>

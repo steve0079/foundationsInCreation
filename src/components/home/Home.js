@@ -16,7 +16,7 @@ const Home = () => {
       <ScrollArrow />
       <section id='CustomSlider'><CustomSlider /></section>
       <h4 className="missionStatement">
-        “To educate, enlighten &amp; illuminate people
+        “To <strong>Enlighten, Illuminate &amp; Educate</strong> people
         to the truth of God’s word &amp; His creation”
       </h4>
       <section id='AboutUs'><AboutUs /></section>
