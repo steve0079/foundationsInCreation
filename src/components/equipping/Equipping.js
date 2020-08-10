@@ -12,7 +12,7 @@ const Equipping = () => {
                 <li className="imgContainer">
                     <img className="img225" src="https://foundationsincreations.s3.amazonaws.com/truthAboutDinosaurs_v2.jpg" alt="Truth About Dinosaurs" title="Truth About Dinosaurs" />
                     <p className="imgText">
-                    Uncovering the Truth About Dinosaurs <em>Unlocking the Mysteries of Genesis &amp; more Biblical-based Science teachings</em></p>
+                        Uncovering the Truth About Dinosaurs <em>Unlocking the Mysteries of Genesis &amp; more Biblical-based Science teachings</em></p>
                 </li>
                 <li className="imgContainer">
                     <img className="img225" src="https://foundationsincreations.s3.amazonaws.com/birdsFromReptiles_v2.jpg" alt="Birds From Reptiles... REALLY?" title="Birds From Reptiles... REALLY?" />
@@ -22,7 +22,7 @@ const Equipping = () => {
                 <li className="imgContainer">
                     <img className="img325" src="https://foundationsincreations.s3.amazonaws.com/dogsHeaven_v3.jpg" alt="If All Dogs Go To Heaven..." title="If All Dogs Go To Heaven..." />
                     <p className="imgText">
-                        “If All Dogs Got to Heaven…<br /> What about Cats?” – <br /><em>A Thought Provoking Presentation on the idea of Animals Being Present in Heaven or on the New Earth</em></p>
+                        “If All Dogs Go to Heaven…<br /> What about Cats?” – <br /><em>A Thought Provoking Presentation on the idea of Animals Being Present in Heaven or on the New Earth</em></p>
                 </li>
                 <li className="imgContainer">
                     <img className="img325" src="https://foundationsincreations.s3.amazonaws.com/biggestLies.jpg" alt="12 Biggest Lies" title="12 Biggest Lies" />

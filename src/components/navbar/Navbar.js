@@ -12,7 +12,7 @@ const Navbar = props => (
                 <DrawerToggleButton click={props.drawerClickHandler} />
             </div>
             <div className="toolbar_logo">
-                <div className="logoImage" />
+                <div className="logoImage"></div>
                 <p className="logoType">Foundations in Creation</p>
             </div>
             <div className="spacer"></div>
