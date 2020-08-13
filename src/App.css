@@ -117,7 +117,6 @@ h2 {
   width: 58px;
   height: 80px;
   margin-left: 10px;
-  cursor: pointer;
 }
 
 .logoType {
@@ -526,18 +525,15 @@ li {
   .speechList:hover {
     height: auto;
   }
-  .containerWhite .speechList,
-  .containerGold .speechList {
+  .containerWhite .speechList, .containerGold .speechList {
     height: 250px;
     overflow: hidden;
     text-overflow: ellipsis;
   }
-  
   .imgContainer.showMobile {
     align-items: center;
   }
-  .containerWhite .speechList:hover,
-  .containerGold .speechList:hover {
+  .containerWhite .speechList:hover, .containerGold .speechList:hover {
     height: auto;
   }
   .moreText {
