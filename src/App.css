@@ -518,7 +518,7 @@ li {
     margin-bottom: .5rem;
   }
   .speechList {
-    cursor: pointer;
+    /* cursor: pointer; */
     height: 160px;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -526,16 +526,18 @@ li {
   .speechList:hover {
     height: auto;
   }
-  .containerWhite .speechList {
-    cursor: pointer;
+  .containerWhite .speechList,
+  .containerGold .speechList {
     height: 250px;
     overflow: hidden;
     text-overflow: ellipsis;
   }
+  
   .imgContainer.showMobile {
     align-items: center;
   }
-  .containerWhite .speechList:hover {
+  .containerWhite .speechList:hover,
+  .containerGold .speechList:hover {
     height: auto;
   }
   .moreText {
