@@ -15,7 +15,7 @@ const TwoFourTwoMinistries = () => {
                         Aloha “Love of Jesus” party <br />at Mountain Shadows Community homes in Escondido</p>
                 </li>
                 <li className="imgContainer">
-                    <img className="img225" src="https://foundationsincreations.s3.amazonaws.com/fourthFridays_v2.jpg" alt="4th Friday's at Long Beach Rescue Mission" title="4th Friday's at Long Beach Rescue Mission" />
+                    <img className="img225" src="https://foundationsincreations.s3.amazonaws.com/fourthFridays_v3.jpg" alt="4th Friday's at Long Beach Rescue Mission" title="4th Friday's at Long Beach Rescue Mission" />
                     <p className="imgText">
                         Homeless Outreach 4th Friday’s Chapel Service at Long Beach Rescue Mission</p>
                 </li>
